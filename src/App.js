@@ -1,23 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Table from "./Components/table";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+      <div className="d-flex justify-content-center">
+        <h1
+          style={{
+            marginTop: "20px",
+            fontSize: "30px",
+          }}
         >
-          Learn React
-        </a>
-      </header>
+          HISP TANZANIA Physical Development Teaser
+        </h1>
+      </div>
+      <Table></Table>
+      <footer>issalito</footer>
     </div>
   );
 }
